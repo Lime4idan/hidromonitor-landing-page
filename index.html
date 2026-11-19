@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HidroMonitor — prevenção e monitoramento em tempo real do fluxo de água.">
+  <meta name="theme-color" content="#05080D">
+  <title>HidroMonitor · Fluxo visível</title>
+  <link rel="icon" type="image/png" href="assets/logo-symbol-white.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Inter+Tight:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="HidroMonitor — início">
+      <img class="brand-symbol" src="assets/logo-symbol-white.png" alt="">
+      <img class="brand-wordmark" src="assets/logo-wordmark-white.png" alt="">
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="#sistema">Sistema</a>
+      <a href="#monitoramento">Monitoramento</a>
+      <a href="#aplicacoes">Aplicações</a>
+      <a class="nav-action" href="#contato">Contato <span aria-hidden="true">↘</span></a>
+    </nav>
+    <div class="header-controls">
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-copy">
+        <h1 id="hero-title">O fluxo da água, finalmente <em>visível.</em></h1>
+        <p>Sensores acompanham o fluxo em tempo real e transformam variações em informação clara para quem cuida da operação.</p>
+        <div class="hero-actions">
+          <a class="line-action line-action--light" href="#contato"><span>Solicitar demonstração</span><i aria-hidden="true">↗</i></a>
+          <a class="text-action" href="#sistema">Entender o sistema <i aria-hidden="true">↓</i></a>
+        </div>
+      </div>
+
+      <div class="hero-trace" aria-label="Representação visual do fluxo acompanhado">
+        <div class="trace-copy">
+          <span>FLUXO EM ACOMPANHAMENTO</span>
+          <small>REPRESENTAÇÃO VISUAL</small>
+        </div>
+        <svg viewBox="0 0 960 100" role="img" aria-label="Linha de fluxo contínuo com uma variação destacada">
+          <path class="trace-guide" d="M0 59H960"/>
+          <path class="trace-line" d="M0 59 C90 59 118 58 176 59 S258 61 320 59 S390 57 446 59 S508 88 566 46 S637 59 704 59 S840 58 960 59"/>
+          <circle cx="566" cy="46" r="5"/>
+        </svg>
+        <div class="trace-state"><span></span> LEITURA CONTÍNUA</div>
+      </div>
+    </section>
+
+    <section class="problem section-light" aria-labelledby="problem-title">
+      <div class="problem-intro reveal">
+        <h2 id="problem-title">A água muda de comportamento antes de virar problema.</h2>
+        <p>Quando o fluxo fica escondido dentro da infraestrutura, a operação reage tarde. A HidroMonitor transforma esse movimento em uma leitura que pode ser acompanhada.</p>
+      </div>
+      <div class="problem-sequence reveal" aria-label="Do fluxo invisível à informação acionável">
+        <div><span>SEM LEITURA</span><strong>O movimento acontece sem contexto.</strong></div>
+        <div><span>COM HISTÓRICO</span><strong>As variações ganham referência.</strong></div>
+        <div><span>COM ALERTA</span><strong>A equipe sabe quando verificar.</strong></div>
+      </div>
+    </section>
+
+    <section class="system section-dark" id="sistema" aria-labelledby="system-title">
+      <div class="system-heading reveal">
+        <h2 id="system-title">Da leitura ao alerta.</h2>
+        <p>Uma sequência contínua conecta a infraestrutura à tomada de decisão — sem esconder o essencial em uma interface complicada.</p>
+      </div>
+      <div class="flow-system reveal">
+        <div class="flow-rail" aria-hidden="true"><span></span></div>
+        <article>
+          <span class="step">01</span>
+          <div><h3>Sensor</h3><p>Mede o fluxo diretamente na infraestrutura.</p></div>
+        </article>
+        <article>
+          <span class="step">02</span>
+          <div><h3>Monitoramento</h3><p>Organiza a leitura ao longo do tempo.</p></div>
+        </article>
+        <article>
+          <span class="step">03</span>
+          <div><h3>Alerta</h3><p>Sinaliza uma variação para direcionar a verificação.</p></div>
+        </article>
+      </div>
+      <div class="system-foot reveal">
+        <p>Fluxo medido.</p><p>Comportamento acompanhado.</p><p>Informação entregue.</p>
+      </div>
+    </section>
+
+    <section class="monitoring section-light" id="monitoramento" aria-labelledby="monitoring-title">
+      <div class="monitoring-copy reveal">
+        <h2 id="monitoring-title">O que muda fica claro.</h2>
+        <p>Uma visão contínua ajuda a reconhecer padrões, comparar períodos e localizar momentos que merecem atenção.</p>
+        <a class="line-action line-action--dark" href="#contato"><span>Ver uma demonstração</span><i aria-hidden="true">↗</i></a>
+      </div>
+
+      <figure class="monitor-panel reveal">
+        <figcaption>
+          <div><span>MONITORAMENTO EM TEMPO REAL</span><strong>Fluxo acompanhado</strong></div>
+          <small>EXEMPLO VISUAL · DADOS ILUSTRATIVOS</small>
+        </figcaption>
+        <div class="monitor-status">
+          <span><i></i> LEITURA ATIVA</span>
+          <strong>Comportamento estável</strong>
+        </div>
+        <div class="monitor-chart">
+          <div class="chart-y"><span>MAIOR</span><span>MENOR</span></div>
+          <svg viewBox="0 0 760 340" role="img" aria-label="Curva ilustrativa de fluxo ao longo de um dia">
+            <defs>
+              <linearGradient id="flow-area" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#018ABE" stop-opacity=".38"/>
+                <stop offset="100%" stop-color="#018ABE" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g class="chart-grid">
+              <path d="M20 55H740M20 130H740M20 205H740M20 280H740"/>
+              <path d="M20 25V300M200 25V300M380 25V300M560 25V300M740 25V300"/>
+            </g>
+            <path class="chart-area" d="M20 254 C86 246 132 252 200 218 S310 124 380 168 S496 224 560 136 S672 76 740 108 L740 300H20Z"/>
+            <path class="chart-line" d="M20 254 C86 246 132 252 200 218 S310 124 380 168 S496 224 560 136 S672 76 740 108"/>
+            <g class="chart-marker"><circle cx="560" cy="136" r="7"/><path d="M560 136V300"/></g>
+          </svg>
+          <div class="chart-time"><span>00h</span><span>06h</span><span>12h</span><span>18h</span><span>24h</span></div>
+        </div>
+        <div class="monitor-events">
+          <span>LEITURAS RECENTES</span>
+          <p><time>18:20</time><b>Fluxo dentro do comportamento acompanhado</b><em>estável</em></p>
+          <p><time>17:42</time><b>Variação registrada para acompanhamento</b><em>verificar</em></p>
+        </div>
+      </figure>
+    </section>
+
+    <section class="applications section-dark" id="aplicacoes" aria-labelledby="applications-title">
+      <div class="application-image" aria-hidden="true"></div>
+      <div class="applications-content">
+        <div class="applications-heading reveal">
+          <h2 id="applications-title">Uma leitura para quem mantém tudo funcionando.</h2>
+          <p>A solução pode apoiar operações que precisam acompanhar o fluxo de água com mais contexto e continuidade.</p>
+        </div>
+        <div class="application-list reveal">
+          <article><span>01</span><h3>Condomínios</h3><p>Visibilidade para a gestão de áreas e sistemas compartilhados.</p></article>
+          <article><span>02</span><h3>Administradoras</h3><p>Informação organizada para acompanhar diferentes operações.</p></article>
+          <article><span>03</span><h3>Facilities</h3><p>Apoio às equipes responsáveis pela continuidade predial.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section-light" aria-labelledby="faq-title">
+      <div class="faq-heading reveal">
+        <h2 id="faq-title">Antes da demonstração.</h2>
+        <p>O essencial para entender como a HidroMonitor entra na rotina da operação.</p>
+      </div>
+      <div class="faq-list reveal">
+        <details>
+          <summary>O que a HidroMonitor acompanha?<span aria-hidden="true"></span></summary>
+          <p>O sistema acompanha o fluxo de água em tempo real e organiza essa leitura para facilitar a identificação de variações.</p>
+        </details>
+        <details>
+          <summary>Como os alertas ajudam a operação?<span aria-hidden="true"></span></summary>
+          <p>Quando uma variação é reconhecida, o alerta direciona a atenção da equipe para que ela possa verificar o que mudou.</p>
+        </details>
+        <details>
+          <summary>Em quais contextos pode ser aplicado?<span aria-hidden="true"></span></summary>
+          <p>A HidroMonitor é apresentada para condomínios, administradoras e equipes de facilities. A adequação depende da infraestrutura acompanhada.</p>
+        </details>
+        <details>
+          <summary>Como conhecer o sistema?<span aria-hidden="true"></span></summary>
+          <p>Solicite uma demonstração para apresentar a operação e entender como o monitoramento pode ser avaliado para o seu contexto.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact" id="contato" aria-labelledby="contact-title">
+      <div class="contact-media" aria-hidden="true"></div>
+      <div class="contact-shell">
+        <div class="contact-copy reveal">
+          <h2 id="contact-title">Vamos tornar esse fluxo visível?</h2>
+          <p>Conte brevemente sobre a operação que você acompanha.</p>
+        </div>
+        <form class="contact-form reveal" novalidate>
+          <label><span>Nome</span><input type="text" name="nome" autocomplete="name" required></label>
+          <label><span>E-mail profissional</span><input type="email" name="email" autocomplete="email" required></label>
+          <label class="full"><span>Empresa ou condomínio</span><input type="text" name="empresa" autocomplete="organization" required></label>
+          <button type="submit"><span>Solicitar demonstração</span><i aria-hidden="true">↗</i></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <footer>
+          <a class="footer-brand" href="#inicio" aria-label="HidroMonitor — voltar ao início">
+            <img class="brand-symbol" src="assets/logo-symbol-white.png" alt="">
+            <img class="brand-wordmark" src="assets/logo-wordmark-white.png" alt="">
+          </a>
+          <a href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+        </footer>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
